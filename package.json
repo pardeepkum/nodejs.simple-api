@@ -1,0 +1,21 @@
+{
+  "name": "pardeep",
+  "version": "1.0.0",
+  "description": "its an amazing packing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file=.env server2.js",
+    "start:server": "PORT=8000 nodemon server.js",
+    "start:server2": "PORT=8000 nodemon server2.js"
+  },
+
+  "author": "pardeep",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
